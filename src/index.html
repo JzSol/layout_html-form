@@ -13,5 +13,124 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+
+    </form>
+
+
+    <div>Personal information</div>
+
+    <div class="form-fields">
+          Surname:
+      <input type="text">
+      <form  method="post"></form>
+    </div>
+
+    <div class="form-fields">
+    Name:
+      <input type="text">
+      <form  method="post">
+      </form>
+    </div>
+
+    <div class="form-fields">
+     How old are you?
+      <input type="number" min="1"
+        max="100" value="12">
+      <form  method="post">
+
+      </form>
+    </div>
+
+    <div class="form-fields">
+    Full date of birth:
+      <input type="number" placeholder="mm/dd/yyyy">
+      <form  method="post"></form>
+    </div>
+
+    <div class="form-fields">
+I accept the term of the agreement
+      <input type="checkbox">
+    </div>
+
+    <div>Registration</div>
+
+    <div class="form-fields">
+    E-mail:
+      <input type="text" placeholder="email@example.com">
+    </div>
+
+
+    <div class="form-fields">
+    Password:
+      <input type="password" name="password" >
+    </div>
+
+    <div>An interesting fact about you!</div>
+
+    <div class="form-fields">
+  Do you love cats?
+  Yes
+      <input type="radio" name="Yes">
+No
+      <input type="radio" name="No">
+    </div>
+
+    <div class="form-fields">
+  What is your favorite color?
+      <input type="color">
+    </div>
+
+    <div class="form-fields">
+  What time do you go to bed?
+      <input type="date">
+    </div>
+
+
+    <div class="form-fields">
+      <!-- Favorite car brand?
+        <input type="">
+      </div>
+    </form> -->
+
+      <label for="cars">
+        Whats your favorite car?
+
+        <select name="favorite car">
+          <option value="#f00">BMW</option>
+          <option value="#0f0">Ferrari</option>
+          <option value="#00f">Audi</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="form-fields">
+How do you rate our work?
+      <input type="range">
+    </div>
+    </form>
+
+    <div>
+    Additional info:
+    </div>
+
+    <div>
+  Comments:
+      <input type="text">
+      <form  method="post"></form>
+    </div>
+
+    <div>
+    Would you recommend us?
+      <select name="Recomend" >
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </div>
+
   </body>
+  <button type="submit">Submit</button>
+</form>
 </html>
+

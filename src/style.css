@@ -1,1 +1,14 @@
 /* styles go here */
+html {
+  background-color: bisque;
+}
+.block1 {
+  top: 60px;
+  bottom: 20px;
+}
+body {
+  margin: 0;
+}
+div {
+  height: 28px;
+}
